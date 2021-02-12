@@ -31,6 +31,8 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-interaction --no-suggest
 
+      - run: make vendor
+
       - name: Install Drupal
         run: >
           bin/drush --root=$(pwd)/web

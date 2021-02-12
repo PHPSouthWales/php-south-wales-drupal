@@ -1,0 +1,49 @@
+x-app: &default-app
+  env_file:
+    - .docker.env
+
+services:
+  proxy:
+    image: nginxproxy/nginx-proxy
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock
+    ports:
+      - "${DOCKER_WEB_PORT_FORWARD:-127.0.0.1:80}:80"
+
+  nginx:
+    <<: *default-app
+    build:
+      dockerfile: tools/docker/Dockerfile
+      context: .
+      target: nginx
+    volumes:
+      - ./:/app
+    depends_on:
+      - php
+    environment:
+      VIRTUAL_HOST: phpsouthwales.localhost
+
+  php:
+    <<: *default-app
+    build:
+      dockerfile: tools/docker/Dockerfile
+      context: .
+      target: dev
+    volumes:
+      - ./:/app
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  mysql:
+    <<: *default-app
+    image: mariadb:10
+    volumes:
+      - ./tools/assets/development:/docker-entrypoint-initdb.d
+      - db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "bash", "-c", "echo > /dev/tcp/localhost/3306"]
+      interval: 1s
+
+volumes:
+  db-data: {}

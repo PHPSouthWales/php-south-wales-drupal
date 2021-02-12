@@ -1,0 +1,60 @@
+#!/bin/bash
+
+set -e
+
+TTY=""
+if [[ ! -t 1 ]]; then
+  TTY="-T"
+fi
+
+DC="${DC:-exec}"
+
+function sh {
+  cmd sh "${@}"
+}
+
+function cmd {
+  # Run any command in the php container.
+  _dc php "${@}"
+}
+
+function composer {
+  # Execute Composer commands.
+  . .docker.env
+
+  _dc -e COMPOSER_MEMORY_LIMIT=${COMPOSER_MEMORY_LIMIT} php composer "${@}"
+}
+
+function drupal:install {
+  # Install Drupal and pull in the latest event data.
+  drush site:install -y --account-pass admin123 --existing-config
+  drush migrate:import --all
+  drush cache:rebuild
+  drush core:cron
+  drush advancedqueue:queue:process event_pull
+}
+
+function drupal:refresh {
+  # Drop the current database and start again from scratch.
+  drush sql:drop -y
+  drupal:install
+}
+
+function drush {
+  # Execute Drush commands.
+  cmd drush "${@}"
+}
+
+function help {
+  printf "%s <task> [args]\n\nTasks:\n" "${0}"
+
+  compgen -A function | grep -v "^_" | cat -n
+
+  printf "\nExtended help:\n  Each task has comments for general usage\n"
+}
+
+function _dc {
+  docker-compose ${DC} ${TTY} "${@}"
+}
+
+eval "${@:-help}"

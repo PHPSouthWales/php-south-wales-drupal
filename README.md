@@ -4,15 +4,13 @@ The Drupal codebase for the [PHP South Wales user group](https://www.phpsouthwal
 
 ## Local environment
 
-The project is using DDEV for local development.
+The project is using Docker and Docker Compose for local development.
 
-### Installing the site
-
-To install the site from scratch, run `ddev drupal-site-install`. This will install Drupal from the existing configuration, build the theme assets, and import a set of events from Meetup.com.
+If you are using [Traefik](https://docs.traefik.io) (recommended), then the site should now be available at <http://phpsouthwales.docker.localhost>.
 
 ## Updating Drupal core using Composer
 
-    ddev composer update 'drupal/core-*'
+    docker-compose exec php composer update 'drupal/core-*'
 
 ## Hosting
 
