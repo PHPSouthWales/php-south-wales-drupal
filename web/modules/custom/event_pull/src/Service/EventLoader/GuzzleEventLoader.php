@@ -32,7 +32,6 @@ abstract class GuzzleEventLoader implements EventLoaderInterface {
    * {@inheritdoc}
    */
   public function getUpcoming(): Collection {
-    // TODO: Add caching.
     $response = $this->client->request('get', $this->getUrl());
     $events = (string) $response->getBody();
 
