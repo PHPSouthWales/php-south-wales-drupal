@@ -2,12 +2,13 @@
 !*/
 /bin/
 /vendor
+!/.docker.env.example
 !/.github/**
 !/bin/*
 !/config/*
+!/tools/**
 !/web/modules/custom
 !/web/modules/custom/**
 !/web/sites/default/settings.php
 !/web/sites/default/settings.platformsh.php
-!/web/sites/default/settings.symfony.php
 !/web/themes/custom
