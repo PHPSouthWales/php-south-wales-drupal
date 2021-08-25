@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-make init
-make drupal-install
-make drupal-post-install
