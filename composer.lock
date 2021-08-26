@@ -2293,16 +2293,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.9.16",
+            "version": "8.9.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "498effa27ae5111f53f04fbe80fd05369a88c53d"
+                "reference": "e536176c45d9d75ec57f7a12c0e3c0aead856841"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/498effa27ae5111f53f04fbe80fd05369a88c53d",
-                "reference": "498effa27ae5111f53f04fbe80fd05369a88c53d",
+                "url": "https://api.github.com/repos/drupal/core/zipball/e536176c45d9d75ec57f7a12c0e3c0aead856841",
+                "reference": "e536176c45d9d75ec57f7a12c0e3c0aead856841",
                 "shasum": ""
             },
             "require": {
@@ -2329,7 +2329,7 @@
                 "laminas/laminas-diactoros": "^1.8",
                 "laminas/laminas-feed": "^2.12",
                 "masterminds/html5": "^2.1",
-                "pear/archive_tar": "^1.4.12",
+                "pear/archive_tar": "^1.4.14",
                 "php": "^7.0.8",
                 "psr/log": "^1.0",
                 "stack/builder": "^1.0",
@@ -2520,11 +2520,11 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2021-05-25T09:17:58+00:00"
+            "time": "2021-08-12T17:48:42+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "8.9.16",
+            "version": "8.9.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -2571,16 +2571,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "8.9.16",
+            "version": "8.9.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "ec38f5cb75ca1848f2247a645d4a4dee4abe4c28"
+                "reference": "71839bb9799b70f449b76294b461877ba1e9ff2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/ec38f5cb75ca1848f2247a645d4a4dee4abe4c28",
-                "reference": "ec38f5cb75ca1848f2247a645d4a4dee4abe4c28",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/71839bb9799b70f449b76294b461877ba1e9ff2c",
+                "reference": "71839bb9799b70f449b76294b461877ba1e9ff2c",
                 "shasum": ""
             },
             "require": {
@@ -2592,7 +2592,7 @@
                 "doctrine/common": "v2.7.3",
                 "doctrine/inflector": "v1.2.0",
                 "doctrine/lexer": "1.0.2",
-                "drupal/core": "8.9.16",
+                "drupal/core": "8.9.18",
                 "easyrdf/easyrdf": "0.9.1",
                 "egulias/email-validator": "2.1.17",
                 "guzzlehttp/guzzle": "6.5.4",
@@ -2605,7 +2605,7 @@
                 "laminas/laminas-zendframework-bridge": "1.0.4",
                 "masterminds/html5": "2.3.0",
                 "paragonie/random_compat": "v9.99.99",
-                "pear/archive_tar": "1.4.13",
+                "pear/archive_tar": "1.4.14",
                 "pear/console_getopt": "v1.4.3",
                 "pear/pear-core-minimal": "v1.10.10",
                 "pear/pear_exception": "v1.0.1",
@@ -2649,7 +2649,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
-            "time": "2021-05-25T09:17:58+00:00"
+            "time": "2021-08-12T17:48:42+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -4780,16 +4780,16 @@
         },
         {
             "name": "pear/archive_tar",
-            "version": "1.4.13",
+            "version": "1.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Archive_Tar.git",
-                "reference": "2b87b41178cc6d4ad3cba678a46a1cae49786011"
+                "reference": "4d761c5334c790e45ef3245f0864b8955c562caa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Archive_Tar/zipball/2b87b41178cc6d4ad3cba678a46a1cae49786011",
-                "reference": "2b87b41178cc6d4ad3cba678a46a1cae49786011",
+                "url": "https://api.github.com/repos/pear/Archive_Tar/zipball/4d761c5334c790e45ef3245f0864b8955c562caa",
+                "reference": "4d761c5334c790e45ef3245f0864b8955c562caa",
                 "shasum": ""
             },
             "require": {
@@ -4852,7 +4852,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-16T10:50:50+00:00"
+            "time": "2021-07-20T13:53:39+00:00"
         },
         {
             "name": "pear/console_getopt",
@@ -8464,16 +8464,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.9",
+            "version": "1.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "78a0e288fdcebf92aa2318a8d3656168da6ac1a5"
+                "reference": "9fdb22c2e97a614657716178093cd1da90a64aa8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/78a0e288fdcebf92aa2318a8d3656168da6ac1a5",
-                "reference": "78a0e288fdcebf92aa2318a8d3656168da6ac1a5",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/9fdb22c2e97a614657716178093cd1da90a64aa8",
+                "reference": "9fdb22c2e97a614657716178093cd1da90a64aa8",
                 "shasum": ""
             },
             "require": {
@@ -8531,7 +8531,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-12T12:10:35+00:00"
+            "time": "2021-06-07T13:58:28+00:00"
         },
         {
             "name": "composer/composer",
@@ -9001,7 +9001,7 @@
         },
         {
             "name": "drupal/core-dev",
-            "version": "8.9.16",
+            "version": "8.9.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-dev.git",
@@ -9102,16 +9102,16 @@
         },
         {
             "name": "instaclick/php-webdriver",
-            "version": "1.4.7",
+            "version": "1.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/instaclick/php-webdriver.git",
-                "reference": "b5f330e900e9b3edfc18024a5ec8c07136075712"
+                "reference": "961b12178cb71f8667afaf2f66ab3e000e060e1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/b5f330e900e9b3edfc18024a5ec8c07136075712",
-                "reference": "b5f330e900e9b3edfc18024a5ec8c07136075712",
+                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/961b12178cb71f8667afaf2f66ab3e000e060e1c",
+                "reference": "961b12178cb71f8667afaf2f66ab3e000e060e1c",
                 "shasum": ""
             },
             "require": {
@@ -9157,7 +9157,7 @@
                 "webdriver",
                 "webtest"
             ],
-            "time": "2019-09-25T09:05:11+00:00"
+            "time": "2021-06-28T22:23:20+00:00"
         },
         {
             "name": "jcalderonzumba/gastonjs",
@@ -9327,16 +9327,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.10",
+            "version": "5.2.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b"
+                "reference": "2ab6744b7296ded80f8cc4f9509abbff393399aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
-                "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/2ab6744b7296ded80f8cc4f9509abbff393399aa",
+                "reference": "2ab6744b7296ded80f8cc4f9509abbff393399aa",
                 "shasum": ""
             },
             "require": {
@@ -9389,7 +9389,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2020-05-27T16:41:55+00:00"
+            "time": "2021-07-22T09:24:00+00:00"
         },
         {
             "name": "mglaman/phpstan-drupal",
@@ -9476,16 +9476,16 @@
         },
         {
             "name": "mikey179/vfsstream",
-            "version": "v1.6.8",
+            "version": "v1.6.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bovigo/vfsStream.git",
-                "reference": "231c73783ebb7dd9ec77916c10037eff5a2b6efe"
+                "reference": "2257e326dc3d0f50e55d0a90f71e37899f029718"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/231c73783ebb7dd9ec77916c10037eff5a2b6efe",
-                "reference": "231c73783ebb7dd9ec77916c10037eff5a2b6efe",
+                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/2257e326dc3d0f50e55d0a90f71e37899f029718",
+                "reference": "2257e326dc3d0f50e55d0a90f71e37899f029718",
                 "shasum": ""
             },
             "require": {
@@ -9518,7 +9518,7 @@
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
             "homepage": "http://vfs.bovigo.org/",
-            "time": "2019-10-30T15:31:00+00:00"
+            "time": "2021-07-16T08:08:02+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -10672,16 +10672,16 @@
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "4b49fb70f067272b659ef0174ff9ca40fdaa6357"
+                "reference": "28af674ff175d0768a5a978e6de83f697d4a7f05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/4b49fb70f067272b659ef0174ff9ca40fdaa6357",
-                "reference": "4b49fb70f067272b659ef0174ff9ca40fdaa6357",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/28af674ff175d0768a5a978e6de83f697d4a7f05",
+                "reference": "28af674ff175d0768a5a978e6de83f697d4a7f05",
                 "shasum": ""
             },
             "require": {
@@ -10724,7 +10724,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-30T08:25:21+00:00"
+            "time": "2021-07-19T06:46:01+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -10824,16 +10824,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "3.1.2",
+            "version": "3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "472b687829041c24b25f475e14c2f38a09edf1c2"
+                "reference": "9c1da83261628cb24b6a6df371b6e312b3954768"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/472b687829041c24b25f475e14c2f38a09edf1c2",
-                "reference": "472b687829041c24b25f475e14c2f38a09edf1c2",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/9c1da83261628cb24b6a6df371b6e312b3954768",
+                "reference": "9c1da83261628cb24b6a6df371b6e312b3954768",
                 "shasum": ""
             },
             "require": {
@@ -10876,7 +10876,7 @@
                 }
             ],
             "abandoned": true,
-            "time": "2020-11-30T08:38:46+00:00"
+            "time": "2021-07-26T12:15:06+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -11643,16 +11643,16 @@
         },
         {
             "name": "seld/phar-utils",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/phar-utils.git",
-                "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796"
+                "reference": "749042a2315705d2dfbbc59234dd9ceb22bf3ff0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
-                "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/749042a2315705d2dfbbc59234dd9ceb22bf3ff0",
+                "reference": "749042a2315705d2dfbbc59234dd9ceb22bf3ff0",
                 "shasum": ""
             },
             "require": {
@@ -11683,20 +11683,20 @@
             "keywords": [
                 "phar"
             ],
-            "time": "2020-07-07T18:42:57+00:00"
+            "time": "2021-08-19T21:01:38+00:00"
         },
         {
             "name": "sirbrillig/phpcs-variable-analysis",
-            "version": "v2.11.0",
+            "version": "v2.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sirbrillig/phpcs-variable-analysis.git",
-                "reference": "e76e816236f401458dd8e16beecab905861b5867"
+                "reference": "3fad28475bfbdbf8aa5c440f8a8f89824983d85e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/e76e816236f401458dd8e16beecab905861b5867",
-                "reference": "e76e816236f401458dd8e16beecab905861b5867",
+                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/3fad28475bfbdbf8aa5c440f8a8f89824983d85e",
+                "reference": "3fad28475bfbdbf8aa5c440f8a8f89824983d85e",
                 "shasum": ""
             },
             "require": {
@@ -11731,7 +11731,7 @@
                 }
             ],
             "description": "A PHPCS sniff to detect problems with variables.",
-            "time": "2021-03-09T22:32:14+00:00"
+            "time": "2021-07-06T23:45:17+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -11999,16 +11999,16 @@
         },
         {
             "name": "theseer/tokenizer",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/theseer/tokenizer.git",
-                "reference": "75a63c33a8577608444246075ea0af0d052e452a"
+                "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/75a63c33a8577608444246075ea0af0d052e452a",
-                "reference": "75a63c33a8577608444246075ea0af0d052e452a",
+                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/34a41e998c2183e22995f158c581e7b5e755ab9e",
+                "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e",
                 "shasum": ""
             },
             "require": {
@@ -12041,7 +12041,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-07-12T23:59:07+00:00"
+            "time": "2021-07-28T10:34:58+00:00"
         },
         {
             "name": "tightenco/collect",
