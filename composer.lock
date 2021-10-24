@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c4a643f870e98946255ea7ab678a16c",
+    "content-hash": "737aace5171ce43a467e8a8751f361c0",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3176,6 +3176,77 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+            }
+        },
+        {
+            "name": "drupal/profile_switcher",
+            "version": "1.0.0-alpha5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/profile_switcher.git",
+                "reference": "8.x-1.0-alpha5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/profile_switcher-8.x-1.0-alpha5.zip",
+                "reference": "8.x-1.0-alpha5",
+                "shasum": "50af21dd1ebcf59e298f647f7c864c8f523a099a"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "php": ">=5.6.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-alpha5",
+                    "datestamp": "1606246132",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Author name",
+                    "homepage": "https://www.drupal.org/user/3299791",
+                    "email": "author@example.com"
+                },
+                {
+                    "name": "alexmoreno",
+                    "homepage": "https://www.drupal.org/user/145609"
+                },
+                {
+                    "name": "joachim",
+                    "homepage": "https://www.drupal.org/user/107701"
+                },
+                {
+                    "name": "kreynen",
+                    "homepage": "https://www.drupal.org/user/48877"
+                },
+                {
+                    "name": "owenpm3",
+                    "homepage": "https://www.drupal.org/user/1644952"
+                },
+                {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
+                }
+            ],
+            "description": "Allows switching of installation profiles for a Drupal site.",
+            "homepage": "https://www.drupal.org/project/profile_switcher",
+            "support": {
+                "source": "https://git.drupalcode.org/project/profile_switcher"
             }
         },
         {
@@ -11537,7 +11608,6 @@
                     "type": "github"
                 }
             ],
-            "abandoned": true,
             "time": "2020-11-30T07:30:19+00:00"
         },
         {
@@ -12098,7 +12168,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/advancedqueue": 10
+        "drupal/advancedqueue": 10,
+        "drupal/profile_switcher": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -31,6 +31,7 @@
         "drupal/markdown": "^1.3",
         "drupal/migrate_tools": "^4.1",
         "drupal/pathauto": "^1.8",
+        "drupal/profile_switcher": "^1.0@alpha",
         "drupal/recreate_block_content": "^2.0",
         "drupal/redirect": "^1.5",
         "drupal/tailwindcss": "^2.2",
