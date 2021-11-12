@@ -6,7 +6,7 @@ The Drupal codebase for the [PHP South Wales user group](https://www.phpsouthwal
 
 The project is using Docker and Docker Compose for local development.
 
-If you are using [Traefik](https://docs.traefik.io) (recommended), then the site should now be available at <http://phpsouthwales.docker.localhost>.
+If you are using [Traefik](https://docs.traefik.io) (recommended), then the site should now be available at <http://phpsouthwales.localhost>.
 
 ## Updating Drupal core using Composer
 
