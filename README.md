@@ -10,7 +10,7 @@ If you are using [Traefik](https://docs.traefik.io) (recommended), then the site
 
 ## Updating Drupal core using Composer
 
-    docker-compose exec php composer update 'drupal/core-*'
+    run composer update 'drupal/core-*'
 
 ## Hosting
 
