@@ -2,7 +2,7 @@
 
 namespace Drupal\event_pull\ValueObject;
 
-use \Illuminate\Support\Collection;
+use Illuminate\Support\Collection;
 
 /**
  * A value object for venue data.
