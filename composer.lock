@@ -3180,27 +3180,27 @@
         },
         {
             "name": "drupal/profile_switcher",
-            "version": "1.0.0-alpha5",
+            "version": "1.0.0-alpha6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/profile_switcher.git",
-                "reference": "8.x-1.0-alpha5"
+                "reference": "8.x-1.0-alpha6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/profile_switcher-8.x-1.0-alpha5.zip",
-                "reference": "8.x-1.0-alpha5",
-                "shasum": "50af21dd1ebcf59e298f647f7c864c8f523a099a"
+                "url": "https://ftp.drupal.org/files/projects/profile_switcher-8.x-1.0-alpha6.zip",
+                "reference": "8.x-1.0-alpha6",
+                "shasum": "b0b7aad7c1e745f2b074a9733fbda784bb1a2615"
             },
             "require": {
-                "drupal/core": "^8 || ^9",
+                "drupal/core": "^8 || ^9 || ^10",
                 "php": ">=5.6.0"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-alpha5",
-                    "datestamp": "1606246132",
+                    "version": "8.x-1.0-alpha6",
+                    "datestamp": "1657897251",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -3219,12 +3219,8 @@
             "authors": [
                 {
                     "name": "Author name",
-                    "homepage": "https://www.drupal.org/user/3299791",
+                    "homepage": "https://www.drupal.org/user/145609",
                     "email": "author@example.com"
-                },
-                {
-                    "name": "alexmoreno",
-                    "homepage": "https://www.drupal.org/user/145609"
                 },
                 {
                     "name": "joachim",
@@ -3241,6 +3237,10 @@
                 {
                     "name": "phenaproxima",
                     "homepage": "https://www.drupal.org/user/205645"
+                },
+                {
+                    "name": "University of Colorado Boulder",
+                    "homepage": "https://www.drupal.org/user/3299791"
                 }
             ],
             "description": "Allows switching of installation profiles for a Drupal site.",
@@ -5702,6 +5702,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": true,
             "time": "2020-03-15T09:38:08+00:00"
         },
         {
@@ -5993,6 +5994,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": "symfony/error-handler",
             "time": "2020-05-22T18:25:20+00:00"
         },
         {
@@ -8473,6 +8475,7 @@
                 "headless",
                 "testing"
             ],
+            "abandoned": "behat/mink-browserkit-driver",
             "time": "2021-10-12T11:35:46+00:00"
         },
         {
@@ -9039,8 +9042,14 @@
             "version": "8.3.13",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/coder.git",
+                "url": "https://github.com/pfrenssen/coder.git",
                 "reference": "d3286d571b19633cc296d438c36b9aed195de43c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfrenssen/coder/zipball/d3286d571b19633cc296d438c36b9aed195de43c",
+                "reference": "d3286d571b19633cc296d438c36b9aed195de43c",
+                "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
@@ -9172,6 +9181,7 @@
             "keywords": [
                 "scraper"
             ],
+            "abandoned": "symfony/browser-kit",
             "time": "2018-06-29T15:13:57+00:00"
         },
         {
