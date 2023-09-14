@@ -1866,9 +1866,6 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
                     "version": "8.x-1.0-rc1",
                     "datestamp": "1582887433",
@@ -1884,14 +1881,6 @@
             ],
             "authors": [
                 {
-                    "name": "Damien Tournoud",
-                    "homepage": "https://www.drupal.org/user/22211"
-                },
-                {
-                    "name": "Kazanir",
-                    "homepage": "https://www.drupal.org/user/2279698"
-                },
-                {
                     "name": "amitaibu",
                     "homepage": "https://www.drupal.org/user/57511"
                 },
@@ -1900,12 +1889,24 @@
                     "homepage": "https://www.drupal.org/user/86106"
                 },
                 {
+                    "name": "Damien Tournoud",
+                    "homepage": "https://www.drupal.org/user/22211"
+                },
+                {
                     "name": "dawehner",
                     "homepage": "https://www.drupal.org/user/99340"
                 },
                 {
+                    "name": "jcnventura",
+                    "homepage": "https://www.drupal.org/user/122464"
+                },
+                {
                     "name": "jsacksick",
                     "homepage": "https://www.drupal.org/user/972218"
+                },
+                {
+                    "name": "Kazanir",
+                    "homepage": "https://www.drupal.org/user/2279698"
                 },
                 {
                     "name": "laurentchardin",
@@ -1995,7 +1996,7 @@
                 "shasum": "04bbd0fc440017fd0129dceae240a8bba409a450"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8"
             },
             "type": "drupal-module",
             "extra": {
@@ -2014,12 +2015,12 @@
             ],
             "authors": [
                 {
-                    "name": "jhodgdon",
-                    "homepage": "https://www.drupal.org/user/155601"
+                    "name": "codebymikey",
+                    "homepage": "https://www.drupal.org/user/3573206"
                 },
                 {
-                    "name": "nedjo",
-                    "homepage": "https://www.drupal.org/user/4481"
+                    "name": "Pasqualle",
+                    "homepage": "https://www.drupal.org/user/80733"
                 }
             ],
             "description": "Provides basic revert and update functionality for other modules",
@@ -2760,7 +2761,7 @@
             },
             "require": {
                 "drupal/config_update": "^1.4",
-                "drupal/core": "*"
+                "drupal/core": "^8"
             },
             "type": "drupal-module",
             "extra": {
@@ -2783,6 +2784,10 @@
                 "GPL-2.0+"
             ],
             "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
                 {
                     "name": "dawehner",
                     "homepage": "https://www.drupal.org/user/99340"
@@ -2812,16 +2817,16 @@
                     "homepage": "https://www.drupal.org/user/1321830"
                 },
                 {
+                    "name": "matthand",
+                    "homepage": "https://www.drupal.org/user/171527"
+                },
+                {
                     "name": "mpotter",
                     "homepage": "https://www.drupal.org/user/616192"
                 },
                 {
                     "name": "nedjo",
                     "homepage": "https://www.drupal.org/user/4481"
-                },
-                {
-                    "name": "tim.plunkett",
-                    "homepage": "https://www.drupal.org/user/241634"
                 }
             ],
             "description": "Enables administrators to package configuration into modules",
@@ -3342,6 +3347,10 @@
                     "homepage": "https://www.drupal.org/user/53892"
                 },
                 {
+                    "name": "Kristen Pol",
+                    "homepage": "https://www.drupal.org/user/8389"
+                },
+                {
                     "name": "pifagor",
                     "homepage": "https://www.drupal.org/user/2375692"
                 }
@@ -3411,7 +3420,7 @@
                 "shasum": "c7e3a3757282e4c94e3c1fff08d01e22155cb853"
             },
             "require": {
-                "drupal/core": "^8.8 || ^9"
+                "drupal/core": "^8.7.7 || ^9"
             },
             "type": "drupal-module",
             "extra": {
@@ -4103,12 +4112,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Illuminate\\Support\\": ""
-                },
                 "files": [
                     "helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Illuminate\\Support\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5138,23 +5147,23 @@
         },
         {
             "name": "platformsh/config-reader",
-            "version": "2.3.1",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/platformsh/config-reader-php.git",
-                "reference": "9951de0f1b3a12792113621238bc31a0524d6e52"
+                "reference": "dc08f50f5a40a767457668ad154116c8ea89cfc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/platformsh/config-reader-php/zipball/9951de0f1b3a12792113621238bc31a0524d6e52",
-                "reference": "9951de0f1b3a12792113621238bc31a0524d6e52",
+                "url": "https://api.github.com/repos/platformsh/config-reader-php/zipball/dc08f50f5a40a767457668ad154116c8ea89cfc6",
+                "reference": "dc08f50f5a40a767457668ad154116c8ea89cfc6",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.5"
+                "phpunit/phpunit": "^8.5"
             },
             "type": "library",
             "autoload": {
@@ -5173,7 +5182,7 @@
                 }
             ],
             "description": "Small helper to access Platform.sh environment variables",
-            "time": "2019-11-05T19:56:33+00:00"
+            "time": "2023-09-14T17:07:00+00:00"
         },
         {
             "name": "psr/container",
@@ -5702,6 +5711,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": true,
             "time": "2020-03-15T09:38:08+00:00"
         },
         {
@@ -5993,6 +6003,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": "symfony/error-handler",
             "time": "2020-05-22T18:25:20+00:00"
         },
         {
@@ -8473,6 +8484,7 @@
                 "headless",
                 "testing"
             ],
+            "abandoned": "behat/mink-browserkit-driver",
             "time": "2021-10-12T11:35:46+00:00"
         },
         {
@@ -9039,8 +9051,14 @@
             "version": "8.3.13",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/coder.git",
+                "url": "https://github.com/pfrenssen/coder.git",
                 "reference": "d3286d571b19633cc296d438c36b9aed195de43c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfrenssen/coder/zipball/d3286d571b19633cc296d438c36b9aed195de43c",
+                "reference": "d3286d571b19633cc296d438c36b9aed195de43c",
+                "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
@@ -9172,6 +9190,7 @@
             "keywords": [
                 "scraper"
             ],
+            "abandoned": "symfony/browser-kit",
             "time": "2018-06-29T15:13:57+00:00"
         },
         {
