@@ -1866,9 +1866,6 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
                     "version": "8.x-1.0-rc1",
                     "datestamp": "1582887433",
@@ -1884,14 +1881,6 @@
             ],
             "authors": [
                 {
-                    "name": "Damien Tournoud",
-                    "homepage": "https://www.drupal.org/user/22211"
-                },
-                {
-                    "name": "Kazanir",
-                    "homepage": "https://www.drupal.org/user/2279698"
-                },
-                {
                     "name": "amitaibu",
                     "homepage": "https://www.drupal.org/user/57511"
                 },
@@ -1900,12 +1889,24 @@
                     "homepage": "https://www.drupal.org/user/86106"
                 },
                 {
+                    "name": "Damien Tournoud",
+                    "homepage": "https://www.drupal.org/user/22211"
+                },
+                {
                     "name": "dawehner",
                     "homepage": "https://www.drupal.org/user/99340"
                 },
                 {
+                    "name": "jcnventura",
+                    "homepage": "https://www.drupal.org/user/122464"
+                },
+                {
                     "name": "jsacksick",
                     "homepage": "https://www.drupal.org/user/972218"
+                },
+                {
+                    "name": "Kazanir",
+                    "homepage": "https://www.drupal.org/user/2279698"
                 },
                 {
                     "name": "laurentchardin",
@@ -1995,7 +1996,7 @@
                 "shasum": "04bbd0fc440017fd0129dceae240a8bba409a450"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8"
             },
             "type": "drupal-module",
             "extra": {
@@ -2014,12 +2015,12 @@
             ],
             "authors": [
                 {
-                    "name": "jhodgdon",
-                    "homepage": "https://www.drupal.org/user/155601"
+                    "name": "codebymikey",
+                    "homepage": "https://www.drupal.org/user/3573206"
                 },
                 {
-                    "name": "nedjo",
-                    "homepage": "https://www.drupal.org/user/4481"
+                    "name": "Pasqualle",
+                    "homepage": "https://www.drupal.org/user/80733"
                 }
             ],
             "description": "Provides basic revert and update functionality for other modules",
@@ -2760,7 +2761,7 @@
             },
             "require": {
                 "drupal/config_update": "^1.4",
-                "drupal/core": "*"
+                "drupal/core": "^8"
             },
             "type": "drupal-module",
             "extra": {
@@ -2783,6 +2784,10 @@
                 "GPL-2.0+"
             ],
             "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
                 {
                     "name": "dawehner",
                     "homepage": "https://www.drupal.org/user/99340"
@@ -2812,16 +2817,16 @@
                     "homepage": "https://www.drupal.org/user/1321830"
                 },
                 {
+                    "name": "matthand",
+                    "homepage": "https://www.drupal.org/user/171527"
+                },
+                {
                     "name": "mpotter",
                     "homepage": "https://www.drupal.org/user/616192"
                 },
                 {
                     "name": "nedjo",
                     "homepage": "https://www.drupal.org/user/4481"
-                },
-                {
-                    "name": "tim.plunkett",
-                    "homepage": "https://www.drupal.org/user/241634"
                 }
             ],
             "description": "Enables administrators to package configuration into modules",
@@ -3342,6 +3347,10 @@
                     "homepage": "https://www.drupal.org/user/53892"
                 },
                 {
+                    "name": "Kristen Pol",
+                    "homepage": "https://www.drupal.org/user/8389"
+                },
+                {
                     "name": "pifagor",
                     "homepage": "https://www.drupal.org/user/2375692"
                 }
@@ -3411,7 +3420,7 @@
                 "shasum": "c7e3a3757282e4c94e3c1fff08d01e22155cb853"
             },
             "require": {
-                "drupal/core": "^8.8 || ^9"
+                "drupal/core": "^8.7.7 || ^9"
             },
             "type": "drupal-module",
             "extra": {
@@ -4020,20 +4029,20 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v7.6.1",
+            "version": "v7.30.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "69a40779d8fc43e3f43da973b9c0c20bdbd81203"
+                "reference": "2449f2ea949ddf995a3dcffe5e21c768cf7d6478"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/69a40779d8fc43e3f43da973b9c0c20bdbd81203",
-                "reference": "69a40779d8fc43e3f43da973b9c0c20bdbd81203",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/2449f2ea949ddf995a3dcffe5e21c768cf7d6478",
+                "reference": "2449f2ea949ddf995a3dcffe5e21c768cf7d6478",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5",
+                "php": "^7.2.5|^8.0",
                 "psr/container": "^1.0",
                 "psr/simple-cache": "^1.0"
             },
@@ -4060,20 +4069,20 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2020-04-09T15:01:22+00:00"
+            "time": "2021-11-17T15:00:14+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v7.6.1",
+            "version": "v7.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "8ca7b4ca00eb22f23f7cfbc055066088c233fd57"
+                "reference": "cd11fa914c52a2249c48cde08d03a871597e8781"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/8ca7b4ca00eb22f23f7cfbc055066088c233fd57",
-                "reference": "8ca7b4ca00eb22f23f7cfbc055066088c233fd57",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/cd11fa914c52a2249c48cde08d03a871597e8781",
+                "reference": "cd11fa914c52a2249c48cde08d03a871597e8781",
                 "shasum": ""
             },
             "require": {
@@ -4103,12 +4112,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Illuminate\\Support\\": ""
-                },
                 "files": [
                     "helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Illuminate\\Support\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4122,7 +4131,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2020-04-13T14:10:19+00:00"
+            "time": "2020-05-05T16:21:56+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -4673,30 +4682,40 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.32.2",
+            "version": "2.71.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "f10e22cf546704fab1db4ad4b9dedbc5c797a0dc"
+                "reference": "98276233188583f2ff845a0f992a235472d9466a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f10e22cf546704fab1db4ad4b9dedbc5c797a0dc",
-                "reference": "f10e22cf546704fab1db4ad4b9dedbc5c797a0dc",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/98276233188583f2ff845a0f992a235472d9466a",
+                "reference": "98276233188583f2ff845a0f992a235472d9466a",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "php": "^7.1.8 || ^8.0",
-                "symfony/translation": "^3.4 || ^4.0 || ^5.0"
+                "psr/clock": "^1.0",
+                "symfony/polyfill-mbstring": "^1.0",
+                "symfony/polyfill-php80": "^1.16",
+                "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
+            },
+            "provide": {
+                "psr/clock-implementation": "1.0"
             },
             "require-dev": {
+                "doctrine/dbal": "^2.0 || ^3.1.4",
                 "doctrine/orm": "^2.7",
-                "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
-                "kylekatarnls/multi-tester": "^1.1",
-                "phpmd/phpmd": "^2.8",
-                "phpstan/phpstan": "^0.11",
-                "phpunit/phpunit": "^7.5 || ^8.0",
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "kylekatarnls/multi-tester": "^2.0",
+                "ondrejmirtes/better-reflection": "*",
+                "phpmd/phpmd": "^2.9",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^0.12.99 || ^1.7.14",
+                "phpunit/php-file-iterator": "^2.0.5 || ^3.0.6",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.26 || ^9.5.20",
                 "squizlabs/php_codesniffer": "^3.4"
             },
             "bin": [
@@ -4705,11 +4724,17 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+                    "dev-3.x": "3.x-dev",
                     "dev-master": "2.x-dev"
                 },
                 "laravel": {
                     "providers": [
                         "Carbon\\Laravel\\ServiceProvider"
+                    ]
+                },
+                "phpstan": {
+                    "includes": [
+                        "extension.neon"
                     ]
                 }
             },
@@ -4726,15 +4751,15 @@
                 {
                     "name": "Brian Nesbitt",
                     "email": "brian@nesbot.com",
-                    "homepage": "http://nesbot.com"
+                    "homepage": "https://markido.com"
                 },
                 {
                     "name": "kylekatarnls",
-                    "homepage": "http://github.com/kylekatarnls"
+                    "homepage": "https://github.com/kylekatarnls"
                 }
             ],
             "description": "An API extension for DateTime that supports 281 different languages.",
-            "homepage": "http://carbon.nesbot.com",
+            "homepage": "https://carbon.nesbot.com",
             "keywords": [
                 "date",
                 "datetime",
@@ -4742,15 +4767,19 @@
             ],
             "funding": [
                 {
-                    "url": "https://opencollective.com/Carbon",
-                    "type": "open_collective"
+                    "url": "https://github.com/sponsors/kylekatarnls",
+                    "type": "github"
                 },
                 {
-                    "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
+                    "url": "https://opencollective.com/Carbon#sponsor",
+                    "type": "opencollective"
+                },
+                {
+                    "url": "https://tidelift.com/subscription/pkg/packagist-nesbot-carbon?utm_source=packagist-nesbot-carbon&utm_medium=referral&utm_campaign=readme",
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-03-31T13:43:19+00:00"
+            "time": "2023-09-25T11:31:05+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -5174,6 +5203,50 @@
             ],
             "description": "Small helper to access Platform.sh environment variables",
             "time": "2019-11-05T19:56:33+00:00"
+        },
+        {
+            "name": "psr/clock",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/clock.git",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/clock/zipball/e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Clock\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for reading the clock.",
+            "homepage": "https://github.com/php-fig/clock",
+            "keywords": [
+                "clock",
+                "now",
+                "psr",
+                "psr-20",
+                "time"
+            ],
+            "time": "2022-11-25T14:36:26+00:00"
         },
         {
             "name": "psr/container",
@@ -5702,6 +5775,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": true,
             "time": "2020-03-15T09:38:08+00:00"
         },
         {
@@ -5993,6 +6067,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": "symfony/error-handler",
             "time": "2020-05-22T18:25:20+00:00"
         },
         {
@@ -8006,23 +8081,23 @@
         },
         {
             "name": "voku/portable-ascii",
-            "version": "1.4.10",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "240e93829a5f985fab0984a6e55ae5e26b78a334"
+                "reference": "87337c91b9dfacee02452244ee14ab3c43bc485a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/240e93829a5f985fab0984a6e55ae5e26b78a334",
-                "reference": "240e93829a5f985fab0984a6e55ae5e26b78a334",
+                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/87337c91b9dfacee02452244ee14ab3c43bc485a",
+                "reference": "87337c91b9dfacee02452244ee14ab3c43bc485a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~6.0 || ~7.0"
+                "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
             },
             "suggest": {
                 "ext-intl": "Use Intl for transliterator_transliterate() support"
@@ -8030,8 +8105,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "voku\\": "src/voku/",
-                    "voku\\tests\\": "tests/"
+                    "voku\\": "src/voku/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -8061,6 +8135,10 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://opencollective.com/portable-ascii",
+                    "type": "open_collective"
+                },
+                {
                     "url": "https://www.patreon.com/voku",
                     "type": "patreon"
                 },
@@ -8069,7 +8147,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-03-13T01:23:26+00:00"
+            "time": "2022-01-24T18:55:24+00:00"
         },
         {
             "name": "webflo/drupal-finder",
@@ -8473,6 +8551,7 @@
                 "headless",
                 "testing"
             ],
+            "abandoned": "behat/mink-browserkit-driver",
             "time": "2021-10-12T11:35:46+00:00"
         },
         {
@@ -9039,8 +9118,14 @@
             "version": "8.3.13",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/coder.git",
+                "url": "https://github.com/pfrenssen/coder.git",
                 "reference": "d3286d571b19633cc296d438c36b9aed195de43c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfrenssen/coder/zipball/d3286d571b19633cc296d438c36b9aed195de43c",
+                "reference": "d3286d571b19633cc296d438c36b9aed195de43c",
+                "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
@@ -9172,6 +9257,7 @@
             "keywords": [
                 "scraper"
             ],
+            "abandoned": "symfony/browser-kit",
             "time": "2018-06-29T15:13:57+00:00"
         },
         {
